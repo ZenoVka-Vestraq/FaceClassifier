@@ -1,4 +1,4 @@
-# Churros Samosa Classifier
+# Face Classifier
 
 ### Tools used
 
