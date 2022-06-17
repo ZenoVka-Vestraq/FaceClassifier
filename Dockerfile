@@ -1,3 +1,4 @@
+#Referenced for pet recognition project
 FROM python:3.6
 
 COPY requirements.txt .
