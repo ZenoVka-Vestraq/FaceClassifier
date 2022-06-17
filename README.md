@@ -10,7 +10,7 @@ You can easily use this as a step by step model.
 
 ### Training Model
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZenoVka-Vestraq/FaceClassifier/blob/main/Train_a_Face_Recognition_Model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ZenoVka-Vestraq/Pet-Recognition-Classifier/blob/main/Train_a_Face_Recognition_Model.ipynb)
 
 Open the Notebook in Colab above. Most steps will be described in detail there.
 
