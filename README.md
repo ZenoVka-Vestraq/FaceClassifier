@@ -1,4 +1,4 @@
-# Face Classifier
+# Pet Recognition Classifier
 
 ### Tools used
 
