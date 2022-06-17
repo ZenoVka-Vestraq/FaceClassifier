@@ -6,7 +6,7 @@ from fastai.vision.all import *
 
 #Labeling function required for load_learner to work
 def GetLabel(fileName):
-  return fileName.split('-')[0]
+  return fileName.split('_')[0]
 
 learn = load_learner(Path('server/export.pkl')) #Import Model
 app = Flask(__name__)
