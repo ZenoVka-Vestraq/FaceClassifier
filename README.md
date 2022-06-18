@@ -27,29 +27,20 @@ At the end of the notebook there will be a download for the export.pkl file, whi
 
 ### Deploying the Model
 
-Command to launch the container:
+Command to launch the container inside VSCode terminal:
 ```bash
-docker build -t churros_samosa_classifier . && docker run --rm -it -p 5000:5000 churros_samosa_classifier
+docker build -t pet_recgonition_classifier . ; docker 
+run --rm -it -p 5000:5000 pet_recognition_classifier
 ```
 
-Then you can deploy the Container to any Cloud Provider of your choosing. 
-
-I recommend [Render](https://render.com), which is what I used for my deployment but everything else should work fine, too. 
+Deploying the Container to [Render](https://render.com)/
 
 
 
 **Steps for deploying on Render**
 
-- Fork this repository 
-
-- Replace the model (export.pkl)
-
-- Change the HTML and CSS to your liking
-
 - In the Render Dashboard create a new Web Service
 
-- Link your repository
+- Link repository
 
-- Make sure Docker is selected
-
-- Done!
+- Select Docker
