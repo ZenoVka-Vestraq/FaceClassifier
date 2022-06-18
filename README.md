@@ -29,8 +29,7 @@ At the end of the notebook there will be a download for the export.pkl file, whi
 
 Command to launch the container inside VSCode terminal:
 ```bash
-docker build -t pet_recgonition_classifier . ; docker 
-run --rm -it -p 5000:5000 pet_recognition_classifier
+docker build -t pet_recognition_classifier . ; docker run --rm -it -p 5000:5000 pet_recognition_classifier
 ```
 
 Deploying the Container to [Render](https://render.com)/
