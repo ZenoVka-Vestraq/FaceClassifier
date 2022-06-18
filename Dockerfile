@@ -1,5 +1,5 @@
 #Referenced for pet recognition project
-FROM python:3.6
+FROM python:3.10
 
 COPY requirements.txt .
 
