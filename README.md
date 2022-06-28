@@ -27,9 +27,13 @@ At the end of the notebook there will be a download for the export.pkl file, whi
 
 ### Deploying the Model
 
-Command to launch the container inside VSCode terminal:
+Command to launch the container inside Windows CMD:
 ```bash
-docker build -t pet_recognition_classifier . && docker run --rm -it -p 5000:5000 pet_recognition_classifier
+#step 1
+docker build -t prc:v1 .
+
+#step 2
+docker container run -d -p 5000:5000 prc:v1
 ```
 
 Deploying the Container to [Render](https://render.com)/
