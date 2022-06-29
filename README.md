@@ -38,12 +38,13 @@ docker container run -d -p 5000:5000 prc:v1
 
 Deploying the Container to [Render](https://render.com)/
 
+>**Steps for deploying on Render**
 
+>- In the Render Dashboard create a new Web Service
 
-**Steps for deploying on Render**
+>- Link repository
 
-- In the Render Dashboard create a new Web Service
+>- Select Docker
 
-- Link repository
-
-- Select Docker
+Link to check out the deployed container on Render.
+https://pet-recognition-classifier-host.onrender.com/
