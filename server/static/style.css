@@ -16,8 +16,8 @@
 #catordog {
     position: fixed;
     bottom: 0;
-    width: 600px;
-    height: 350px;
+    width: 340px;
+    height: 230px;
     left:3%;
     pointer-events: none;
 }
