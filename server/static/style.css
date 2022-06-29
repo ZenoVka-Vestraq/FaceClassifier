@@ -13,16 +13,6 @@
     padding: 10px 0px 10px 0px;
 }
 
-#catordog {
-    position: fixed;
-    bottom: 0;
-    width: 340px;
-    height: 230px;
-    right:3%;
-    pointer-events: none;
-}
-
-
 .result {
     width: 33%px;
     height: 300px;
